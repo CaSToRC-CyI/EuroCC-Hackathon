@@ -2,10 +2,11 @@
 This is a repository for content relating to the Hackathon organised by EuroCC Cyprus with the Anticancer Society of Cyprus.
 
 # Quick start
-1. `> sbatch hackathon/launch_hackathon.sub`
-2. Run command ssh command shown in connection_info.txt
-3. Connect to jupyter server shown in connection_info.txt
-4. Code your solution 
+1. Login on cyclone `> ssh hack24gp##@cyclone.hpcf.cyi.ac.cy`
+2. `> sbatch hackathon/launch_hackathon.sub`
+3. Run command ssh command shown in connection_info.txt
+4. Connect to jupyter server shown in connection_info.txt
+5. Code your solution 
 
 <br>
 
