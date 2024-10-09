@@ -77,7 +77,7 @@ Winner will be announced in the near future when we evaluate your results.
 
 [Langgraph:](https://langchain-ai.github.io/langgraph/tutorials/introduction/) Useful for debugging your chains
 
-[Langgsmith:](https://docs.smith.langchain.com/) Useful for creating complex graph prompts
+[Langsmith:](https://docs.smith.langchain.com/) Useful for creating complex graph prompts
 
 <br>
 
