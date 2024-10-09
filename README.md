@@ -1,9 +1,19 @@
 # EuroCC-Hackathon
 This is a repository for content relating to the Hackathon organised by EuroCC Cyprus with the Anticancer Society of Cyprus.
 
+# Quick start
+1. `> sbatch hackathon/launch_hackathon.sub`
+2. Run command ssh command shown in connection_info.txt
+3. Connect to jupyter server shown in connection_info.txt
+4. Code your solution 
+
+<br>
+
+
 # What you'll be given
 * An excel of patient files. This can be found on the cluster under the hackathon folder in your account.
-  * You'll be given a small script which reads this into a Pandas DataFrame 
+  * You'll be given a small script which reads this into a Pandas DataFrame
+  * For acronym in the frequency and route fields, see first sheet of hackathon.xlsx
 * A list of pdf files containing the leaflets of medicines that are in the patient files.
 <br>
 
@@ -70,6 +80,25 @@ Winner will be announced in the near future when we evaluate your results.
 [Langgsmith:](https://docs.smith.langchain.com/) Useful for creating complex graph prompts
 
 <br>
+
+# Model limitations
+You will be limited to **only** use these models:
+* gemma2:27b 	(Google)
+* llama3.1:latest	(Meta)
+* phi3.5:3.8b-mini-instruct-fp16	(Microsoft)
+* nemotron-mini:4b-instruct-fp16	(Nvidia)
+  
+**be considerate of your context length as to not overflow to CPU memory**
+
+<br>
+
+# Hardware available per team:
+
+1 GPU - 32GB V100 from NVIDIA
+
+10 CPU cores
+
+40 GB RAM
 
 <br>
 
