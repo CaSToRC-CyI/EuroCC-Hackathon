@@ -125,10 +125,13 @@ https://go.drugbank.com/drug-interaction-checker#results
 permissions je ssh-agent sta windows:
  
 if ssh-agent is stopped (powershell):
+
 `Get-Service -Name ssh-agent | Set-Service -StartupType Manual`
+
 `Start-Service ssh-agent`
  
 for permission issues (powershell):
+
 `icacls <path-to-your-id_rsa> /inheritance:r /grant:r "$($env:USERNAME):(F)"`
  
 
