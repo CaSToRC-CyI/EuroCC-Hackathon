@@ -20,6 +20,8 @@ This is a repository for content relating to the Hackathon organised by EuroCC C
 
 # What we'll expect from you at the end of this hackathon
 
+  Your submission should be a compressed zip or tar file containing your script and the json file described below. You can then send that compressed file by replying to the email Kyriaki sent to you with the team number. If you have used an external dataset, a small explanation in that email for how we can download it should be fine.
+  ****This should be submited by Sunday 13/10/2024 at 23:59!****
 <br>
 
   
@@ -62,7 +64,8 @@ You are expected to only list major interactions but minor ones will earn some e
    
   We prefer a script that will read through the the excel spreadsheet we provided and generate the answers in the format above, saving it to a json file.
   
-  ****This should be submited by Sunday 13/10/2024 at 23:59!****
+<br>
+
 
 ## A presentation on Monday showcasing and explaining your solution
 
