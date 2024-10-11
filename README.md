@@ -2,25 +2,26 @@
 This is a repository for content relating to the Hackathon organised by EuroCC Cyprus with the Anticancer Society of Cyprus.
 
 # Quick start
-1. Login on cyclone `> ssh hack24gp##@cyclone.hpcf.cyi.ac.cy`
-2. `> sbatch hackathon/launch_hackathon.sub`
-3. Run command ssh command shown in connection_info.txt
-4. Connect to jupyter server shown in connection_info.txt
-5. Code your solution 
+1. Make sure your key setup is correct
+2. Login on cyclone `> ssh hack24gp##@cyclone.hpcf.cyi.ac.cy`
+3. `> sbatch hackathon/launch_hackathon.sub`
+4. Run command ssh command shown in connection_info.txt
+5. Connect to jupyter server shown in connection_info.txt
+6. Code your solution 
 
 <br>
 
 
 # What you'll be given
-* An excel of patient files. This can be found on the cluster under the hackathon folder in your account.
+* An excel of patient files. This can be found on the cluster under the hackathon folder in your account's home directory.
   * You'll be given a small script which reads this into a Pandas DataFrame
-  * For acronym in the frequency and route fields, see first sheet of hackathon.xlsx
+  * For acronyms in the frequency and route fields, see first sheet of hackathon.xlsx
 * A list of pdf files containing the leaflets of medicines that are in the patient files.
 <br>
 
 # What we'll expect from you at the end of this hackathon
 
-  Your submission should be a compressed zip or tar file containing your script and the json file described below. You can then send that compressed file by replying to the email Kyriaki sent to you with the team number. If you have used an external dataset, a small explanation in that email for how we can download it should be fine.
+  Your submission should be a compressed zip or tar file containing your script and the json file described below. You can then send that compressed file by replying to the email Kyriaki sent to you with the team number. If you have used an external dataset, a small explanation in that email for how we can download it should be fine or even better have that as part of your script.
   ****This should be submited by Sunday 13/10/2024 at 23:59!****
 <br>
 
@@ -62,7 +63,7 @@ You are expected to only list major interactions but minor ones will earn some e
 
 ## Your source code for generating your results.
    
-  We prefer a script that will read through the the excel spreadsheet we provided and generate the answers in the format above, saving it to a json file.
+  We prefer a script that will read through the the excel spreadsheet we provided and generate the answers in the format above, saving it to as a json file.
   
 <br>
 
@@ -93,6 +94,12 @@ You will be limited to **only** use these models:
 * nemotron-mini:4b-instruct-fp16	(Nvidia)
   
 **be considerate of your context length as to not overflow to CPU memory**
+
+
+## Small hint
+
+To help with your generation, read through the parameters you can set for [ChatOllama](https://api.python.langchain.com/en/latest/chat_models/langchain_community.chat_models.ollama.ChatOllama.html)
+
 
 <br>
 
