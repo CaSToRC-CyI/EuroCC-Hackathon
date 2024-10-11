@@ -129,7 +129,6 @@ https://go.drugbank.com/drug-interaction-checker#results
 
 ## For any issues with windows after you've converted your PuTTy key to openSSH format:
 
-permissions je ssh-agent sta windows:
  
 if ssh-agent is stopped (powershell):
 
