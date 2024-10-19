@@ -31,6 +31,7 @@ This is a repository for content relating to the Hackathon organised by EuroCC C
 You are expected to only list major interactions but minor ones will earn some extra points.
    
   **Major interactions**: These are interactions which the Anticancer Society has given us to test your solutions. These will give you the majority of points.
+  
   **Minor interactions**: These are interactions which you may find in the medicine leaflets stating something along the lines of "speak with your doctor if you are taking Y medicine along with X". These should **not** be marked as a major interaction.
   
   **Bonus points** for explained interactions. (e.g The two sedatives Oxycodone and Morphine shouldn't be consumed together because of their additive effects). 
